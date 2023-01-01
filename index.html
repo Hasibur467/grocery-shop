@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery</title>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="images/basket-full-vegetables.jpg" type="image/x-icon">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- qustom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- head starts -->
+<header>
+ <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#"><i class="fa-solid fa-basket-shopping p-1 fs-3"></i>GROCO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"><i class="fa-solid fa-user"></i></a>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+</section>
+</header>
+ <!-- head ends -->
+ <!-- hero strats -->
+<section class="container mt-3">
+    <div class="row d-flex align-items-center">
+        <div class=" col-md-6  hero">
+            <img src="images/hero background.jpg" alt="">
+        </div>
+        <div class="col-md-6 design ">
+        <h2 class="fs-4">Fresh and <span>Organic</span>  Products For You</h2>
+        <p class="fs-5">This is grocery shop we provide oraganic and fresh foods for our cutomer ends.</p>
+        <button class="btn btn-danger">Shop Now</button>
+        </div>
+    </div>
+</section>
+ <!-- hero ends -->
+ <!-- features starts -->
+ <section class="container mt-3">
+    <h1 class="feature-title text-center m-4 text-capitalized">Our <span>Features</span> Products</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/handwash.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hand Wash</h5>
+              <p class="card-text">Hand washing is important in fighting infections! Creating Lasting Change. 15 Years Of Saving Lives. Types: Importance of hygiene, Cleaning your hands.</p>
+            </div>
+            <div class="card-footer bg-danger">
+              <small class="text-light fs-5">Read More</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img  src="images/oil.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">oil</h5>
+              <p class="card-text">Generally, microalgae synthesize a relatively low level of oil under favorable growth conditions, but the oil content can significantly increase under stress conditions such as nitrogen deficiency.</p>
+            </div>
+            <div class="card-footer bg-danger">
+              <small class="text-light  fs-5">Read More</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/orange2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Orange</h5>
+              <p class="card-text">In addition to vitamin C, oranges have other nutrients that keep your body healthy. The fiber in oranges can keep blood sugar levels in check and reduce high cholesterol to prevent cardiovascular disease.</p>
+            </div>
+            <div class="card-footer bg-danger">
+              <small class="text-light  fs-5">Read More</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- features starts -->
+ <!-- products starts -->
+ <section class="container">
+     <h1 class="product-title text-center m-4">Product <span class>Categories</span></h1>
+  
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/rice.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Rice</h5>
+                  <p class="card-text fs-5">Although sometimes harder to find, black rice is the number one nutritional rock star among rice varieties. 1 It's high in fiber and nutrients that lower cholesterol, promote healthy digestion, and stave off chronic disease.</p>
+                  <!-- <p class="text-center fs-3 fw-bold">Price <del>40$</del>35$</p> -->
+                </div>
+                <p class="text-center fs-3 fw-bold mt-3">Price <del>40$</del>35$</p>
+                <div class="card-footer">
+                  <button class="btn btn-danger">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img  src="images/capcicum.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Capcicum</h5>
+                  <p class="card-text fs-5">Capsicums are also known as bell peppers in America or just peppers in the UK. In the intermediate stage of ripening, capsicums are yellow or orange and are significantly sweeter than the green version.</p>
+                  <!-- <p class="text-center fs-3 fw-bold my-3">Price <del>20$</del>15$</p> -->
+                </div>
+                <p class="text-center fs-3 fw-bold mt-3">Price <del>20$</del>15$</p>
+                <div class="card-footer">
+                  <button class="btn btn-danger">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/carrot.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Carrot</h5>
+                  <p class="card-text fs-5">They're rich in beta-carotene, a compound your body changes into vitamin A, which helps keep your eyes healthy. And beta-carotene helps protect your eyes from the sun and lowers your chances of cataracts and other eye problems. </p>
+                  <!-- <p class="text-center fs-3 fw-bold">Price <del>10$</del>5$</p> -->
+                </div>
+                <p class="text-center fs-3 fw-bold mt-3">Price <del>10$</del>5$</p>
+                <div class="card-footer">
+                  <button class="btn btn-danger">Order Now</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/tomato2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tomato</h5>
+                  <p class="card-text fs-5">Tomatoes are loaded with a substance called lycopene. It gives them their bright red color and helps protect them from the ultraviolet rays of the sun. In much the same way, it can help protect your cells from damage</p>
+                  <!-- <p class="text-center fs-3 fw-bold">Price <del>40$</del>35$</p> -->
+                </div>
+                <p class="text-center fs-3 fw-bold mt-3">Price <del>30$</del>25$</p>
+                <div class="card-footer">
+                  <button class="btn btn-danger">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img  src="images/chicken-meat.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Chicken Meat</h5>
+                  <p class="card-text fs-5">Chicken is highly nutritious and a good source of protein. Adding chicken to your diet may help support weight loss, muscle growth, and bone health.</p>
+                  <!-- <p class="text-center fs-3 fw-bold my-3">Price <del>20$</del>15$</p> -->
+                </div>
+                <p class="text-center fs-3 fw-bold mt-3">Price <del>60$</del>50$</p>
+                <div class="card-footer">
+                  <button class="btn btn-danger">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/fresh-fish.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tilapiya Fish</h5>
+                  <p class="card-text fs-5">Tilapia are mainly freshwater fish inhabiting shallow streams, ponds, rivers, and lakes, and less commonly found living in brackish water. </p>
+                  <!-- <p class="text-center fs-3 fw-bold">Price <del>10$</del>5$</p> -->
+                </div>
+                <p class="text-center fs-3 fw-bold mt-3">Price <del>35$</del>25$</p>
+                <div class="card-footer">
+                  <button class="btn btn-danger">Order Now</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ </section>
+ <!-- products ends -->
+ <!-- Review part starts -->
+ <section class="container">
+  <h1 class="review-title text-center m-4">Our Customers <span>Reviews</span></h1>
+  <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/review img1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center fs-4">Adam Smith</h5>
+          <p class="card-text fs-4">This is the number one grocery online shop I think.They always provide Fresh and Organic Product.</p>
+        </div>
+        <div class="card-footer">
+          <div class="row d-flex">
+            <div class="col-md-12 ">
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/review img2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center fs-4">Jennelia Gomes</h5>
+          <p class="card-text fs-4">I am satiesfied their grocery shop I thik this the number one of all online grocery shop in my country.</p>
+        </div>
+        <div class="card-footer">
+          <div class="row d-flex">
+            <div class="col-md-12 ">
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+
+            </div>
+          </div>
+          
+        </div>
+          
+        </div>
+      </div>
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="images/review3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center fs-4">Anderson</h5>
+          <p class="card-text fs-4">I am satiesfied the groco grocery shop .I thik this the number one of all online grocery shop in my country.Hopefully this is lead our online grocery bussiness</p>
+        </div>
+        <div class="card-footer">
+          <div class="row d-flex">
+            <div class="col-md-12 ">
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-3"></i>
+
+            </div>
+          </div>
+          
+        </div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+ </section>
+ <!-- Review part ends -->
+ <!-- footer part starts -->
+ <footer class="bg-dark text-white pt-3 pb-4">
+  <div class="container align-items-center text-md-left">
+    <div class="row  text-md-left m-3">
+      <div class="col-md-3 footer-deco">
+        <h3 class="text-white text-md-left fw-bold mt-3 mb-3"><a href="#" style="text-decoration: none;" class="text-white"><i class="fa-solid fa-basket-shopping p-1 fs-3"></i>GROCO</a></h3>
+        <p class="fs-5 lh-4 text-md-left">Groco is the number one online grocery shop in our country.<br>Customers satisfaction is our first priority.</p>
+      </div>
+      <div class="col-md-3 footer-deco ">
+        <h3 class="mt-3 fw-bold mb-3">Get Help</h3>
+        <p><a href="#" style="text-decoration: none;" class="text-white">FAQ</a></p>
+           
+        <p><a href="#" style="text-decoration: none;" class="text-white">Shipping</a></p> 
+         <p> <a href="#" style="text-decoration: none;"class="text-white">Returns</a></p>
+           <p><a href="#" style="text-decoration: none;" class="text-white"">Order Status</a></p>
+          <p><a href="#" style="text-decoration: none;" class="text-white">Payment Option</a></p>
+        
+      </div>
+      <div class="col-md-3 footer-deco">
+        <h3 class="mt-3 fw-bold mb-3">Useful Link</h3>
+        
+          <p><a href="#" style="text-decoration:none" class="text-white">Your Account</a></p>
+          <p><a href="#" style="text-decoration:none" class="text-white">Shipping Rates</a></p>
+          <p> <a href="#" style="text-decoration:none" class="text-white">Become an affilates</a></p>
+         <p> <a href="#" style="text-decoration:none" class="text-white">Help</a></p>
+        
+      
+      </div>
+      <div class="col-md-3 fw-bold text-md-left footer-deco">
+        <div class="social-icons">
+          <h3 class="text-uppercase fw-bold mt-3 mb-3 text-md-left">Contact us</h3>
+          <p>
+            <i class="fa-solid fa-house m-2"></i>Bangladesh,Tejgoan,Dhaka
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope m-2"></i>groco_shop@gmail.com
+          </p>
+          <p>
+            <i class="fa-solid fa-phone m-2"></i>+88013408543
+          </p>
+          <a href="#"><i class="fa-brands fa-facebook m-1 mb-3 fs-3 bg-outline"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter m-1 fs-3 bg-outline"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin m-1 fs-3 bg-outline"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp m-1 fs-3 bg-outline"></i></a>
+        </div>
+      </div>
+    </div>
+ </div>
+</footer>
+<!-- footer part starts -->
+</body>
+</html>

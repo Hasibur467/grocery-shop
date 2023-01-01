@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.hero img{
+    width: 600px; 
+    height: 400px;
+
+}
+ .design span{
+    color: orangered;
+
+}
+.feature-title span{
+    color: orangered;
+    
+}
+.product-title span{
+    color: orangered;
+}
+.review-title span{
+    color:orangered;
+}
+.fa-star{
+    color: goldenrod;
+}
+.company-des a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+.fa-brands{
+    color: aliceblue;
+}
+.footer-deco h3{
+    position: relative;
+}
+.footer-deco h3::before{
+    content: "";
+    width: 20%;
+    height: 5px;
+    left:0px;
+    bottom:-5px;
+    background-color: white;
+    position: absolute;
+
+}
